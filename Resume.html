@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume - Njau Edwin Mugai</title>
+  <link rel="stylesheet" href="Resume.css" />
+  <style>
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #333; /* Dark background */
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: #fff; /* White text for contrast */
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #575757; /* Slightly lighter on hover */
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Portfolio</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="landingpage.html">Home</a></li>
+        <li><a href="About.html">About me</a></li>
+        <li><a href="Resume.html">Resume</a></li>
+        <li class="dropdown">
+          <a href="#">Projects</a>
+          <div class="dropdown-content">
+            <a href="Design.html">Mechanical Design</a>
+            <a href="Machining.html">Machining</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Resume Section -->
+  <section class="resume-section">
+    <div class="resume-header">
+      <h1>Njau Edwin Mugai</h1>
+      <h2>Mechanical Engineer & Embedded Systems Specialist</h2>
+      <p>Passionate about designing sustainable, intelligent systems for real-world applications.</p>
+    </div>
+
+    <div class="resume-content">
+
+      <!-- Left Column -->
+      <div class="resume-left">
+        <h3>Experience</h3>
+        <div class="resume-block">
+          <h4>Mechanical Design Engineer</h4>
+          <p class="date">2022 - Present</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus lorem ut sem euismod, at sodales elit dapibus.</p>
+        </div>
+        <div class="resume-block">
+          <h4>Intern - Embedded Systems</h4>
+          <p class="date">2021 - 2022</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id nulla vitae arcu sagittis dapibus sed at magna.</p>
+        </div>
+
+        <h3>Education</h3>
+        <div class="resume-block">
+          <h4>BSc in Mechanical Engineering</h4>
+          <p class="date">2017 - 2021</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus.</p>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="resume-right">
+        <h3>Skills</h3>
+        <ul class="skill-list">
+          <li>SolidWorks, AutoCAD, Fusion 360</li>
+          <li>ANSYS, Proteus, MATLAB</li>
+          <li>Arduino, STM32, Raspberry Pi</li>
+          <li>C/C++, Python, Embedded C</li>
+          <li>Technical Writing, Research, Teamwork</li>
+        </ul>
+
+        <h3>Certifications</h3>
+        <ul class="cert-list">
+          <li>Certified SolidWorks Associate (CSWA)</li>
+          <li>Embedded Systems Design Course – Online</li>
+        </ul>
+
+        <!-- Resume Download -->
+        <div class="download-resume">
+          <h3>Download Resume</h3>
+          <a href="Njau_Resume.pdf" class="btn download-btn" download>Download PDF</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>

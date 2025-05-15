@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me - Mechanical Engineer</title>
+  <link rel="stylesheet" href="about.css" />
+  <style>
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #333; /* Dark background */
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: #fff; /* White text for contrast */
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #575757; /* Slightly lighter on hover */
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Portfolio</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="landingpage.html">Home</a></li>
+        <li><a href="About.html">About me</a></li>
+        <li><a href="Resume.html">Resume</a></li>
+        <li class="dropdown">
+          <a href="#">Projects</a>
+          <div class="dropdown-content">
+            <a href="Design.html">Mechanical Design</a>
+            <a href="Machining.html">Machining</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- About Section -->
+  <section class="about-section">
+    <div class="about-container">
+      
+      <!-- Profile Image -->
+      <div class="about-image">
+        <img src="picha1.jpeg" alt="Njau Edwin Mugai" />
+      </div>
+
+      <!-- Textual Content -->
+      <div class="about-text">
+        <h1>Njau Edwin Mugai</h1>
+        <div class="divider"></div>
+        <h2>Mechanical Engineer & Embedded Systems Enthusiast</h2>
+
+        <div class="divider"></div>
+        <div class="section-block">
+          <h3>Short Biography</h3>
+          <p>
+            I am a Mechanical Engineer with a deep interest in embedded systems, control automation, and mechanical design. 
+            My academic background and practical experience empower me to craft innovative solutions that integrate both mechanical and electronic systems.
+            I believe in sustainable engineering and applying smart technology to improve lives.
+          </p>
+        </div>
+
+        <div class="divider"></div>
+        <div class="section-block">
+          <h3>Skills & Tools</h3>
+          <p>
+            <strong>CAD Tools:</strong> SolidWorks, AutoCAD, Fusion 360<br/>
+            <strong>Simulation:</strong> ANSYS, Proteus, MATLAB Simulink<br/>
+            <strong>Programming:</strong> C/C++, Python, Embedded C<br/>
+            <strong>Hardware:</strong> Arduino, Raspberry Pi, STM32, Sensors, Motor Drivers<br/>
+            <strong>Soft Skills:</strong> Technical Writing, Teamwork, Documentation, Research
+          </p>
+        </div>
+
+        <div class="divider"></div>
+        <div class="section-block">
+          <h3>Hobbies</h3>
+          <p>
+            Outside engineering, I enjoy tinkering with DIY electronics, designing graphics, watching engineering documentaries,
+            and mentoring young innovators in STEM fields. I also have a strong passion for football and nature photography.
+          </p>
+        </div>
+
+        <div class="buttons">
+          <a href="contact.html" class="btn hire-btn">Hire Me</a>
+          <a href="portfolio.html" class="btn portfolio-btn">View Portfolio</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
